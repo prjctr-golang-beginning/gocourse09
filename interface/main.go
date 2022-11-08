@@ -7,12 +7,12 @@ func main() {
 	//var b io.Writer
 	//interface embedding
 	//interface casting, switch/case
-	a := &Alligator{}
-	if ca, ok := any(a).(Crawler); ok {
-		ca.Crawl()
-	} else {
-		fmt.Println(`No!`)
-	}
+	//a := &Alligator{}
+	//if ca, ok := any(a).(Crawler); ok {
+	//	ca.Crawl()
+	//} else {
+	//	fmt.Println(`No!`)
+	//}
 	b := &SnakeFly{}
 	CheckAnimal(b)
 }
